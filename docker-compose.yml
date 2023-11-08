@@ -1,0 +1,7 @@
+services:
+  web:
+    build: ./docker
+    ports:
+      - "96000:3000"
+    volumes:
+      - .:/var/my_nest
